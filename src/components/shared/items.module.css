@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.product{
+    border: 0.5px whitesmoke solid;
+    border-radius: 10px;
+    background-color: rgb(172, 190, 198);
+    padding: 20px;
+    margin: 10px 20px;
+    
+}
+.mainbt{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.container p{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.product:hover{
+    transform: translateY(2%);
+    box-shadow: 4px 4px black;
+    
+    transition: all 0.3s ease-in-out;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+  
+    color: blue;
+}
+
+.addbtn{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.decrese{
+color: black;
+    border: none;
+    padding: 2px 8px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.increse{
+    color: black;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.spannumber{
+    font-weight: bold;
+    color: navy;
+}
+.addbtn:hover{
+    background-color: navy;
+    color: white;
+}
+.decrese:hover{
+    background-color: navy;
+    color: white;
+}
+.increse:hover{
+    background-color: navy;
+    color: white;
+}
+.iconbtn{
+    border-radius: 5px;
+}
+.iconbtn:hover{
+    background-color: blue;
+}

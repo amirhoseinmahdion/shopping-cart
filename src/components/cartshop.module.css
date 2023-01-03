@@ -1,0 +1,74 @@
+.maincart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.finished{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid green;
+    background-color: rgb(203, 223, 203);
+    color: black;
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 5px green;
+}
+.finished p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+    color: green;
+}
+.finished button{
+    margin: 40px 10px;
+    
+}
+.checkbtn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.clear{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.checkbtn:hover{
+    transition: all 0.3s ease-in;
+    transform: translateX(10%);
+    box-shadow: 5px 5px black;
+}
+.clear:hover{
+    transition: all 0.3s ease-in;
+    transform: translateX(10%);
+    box-shadow: 5px 5px black;
+}
+.productcheck h3{
+        font-size: 40px;
+        color: green;
+}
+
+.linkcheck{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.linkclear{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.productclear h3{
+    font-size: 40px;
+    color: red;
+}

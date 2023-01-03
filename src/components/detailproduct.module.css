@@ -1,0 +1,44 @@
+.detailmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 600px;
+}
+.detailmain img{
+    width: 500px;
+    height: 500px;
+}
+.titledetail{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+.titledetail h3{
+    margin-bottom: 90px;
+    color: navy;
+    font-weight: bold;
+    font-size: 30px;
+}
+.titledetail p{
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+.pricedetail{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+.linkdetails{
+    margin-top: 30px;
+    margin-left: 780px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+ 
+}
